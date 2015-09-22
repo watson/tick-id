@@ -1,0 +1,32 @@
+{
+  "name": "tick-id",
+  "version": "0.0.0",
+  "description": "Give each tick on the Node.js event loop it's own ID",
+  "main": "index.js",
+  "dependencies": {
+    "async-listener": "^0.5.6",
+    "max-safe-integer": "^1.0.0"
+  },
+  "devDependencies": {
+    "standard": "^5.3.1",
+    "tape": "^4.2.0"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/watson/tick-id.git"
+  },
+  "keywords": [
+    "tick",
+    "id",
+    "async"
+  ],
+  "author": "Thomas Watson Steen <w@tson.dk> (https://twitter.com/wa7son)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/watson/tick-id/issues"
+  },
+  "homepage": "https://github.com/watson/tick-id"
+}
