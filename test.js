@@ -37,7 +37,7 @@ test('paralel ticks', function (t) {
 
 function testNext (t) {
   var id = tickId()
-  t.ok(id > seen[seen.length - 1])
-  t.ok(!~seen.indexOf(id))
+  t.ok(id > seen[seen.length - 1], 'should increment')
+  t.ok(!~seen.indexOf(id), 'should not repeat')
   seen.push(id)
 }
