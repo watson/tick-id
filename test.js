@@ -11,14 +11,16 @@ test('initial value', function (t) {
 })
 
 test('serial ticks', function (t) {
-  testNext(t)
   process.nextTick(function () {
     testNext(t)
     process.nextTick(function () {
       testNext(t)
       process.nextTick(function () {
         testNext(t)
-        t.end()
+        process.nextTick(function () {
+          testNext(t)
+          t.end()
+        })
       })
     })
   })
