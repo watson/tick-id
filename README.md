@@ -17,7 +17,8 @@ npm install tick-id
 
 ## Usage
 
-The tick-id module exposes a function which will output the Id of the 
+The tick-id module exposes a function which will return the id of the
+current tick:
 
 ```js
 var assert = require('assert')
