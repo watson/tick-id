@@ -1,6 +1,6 @@
 {
   "name": "tick-id",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Give each tick on the Node.js event loop it's own ID",
   "main": "index.js",
   "dependencies": {
@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/watson/tick-id",
   "coordinates": [
-    55.6665298,
-    12.5802282
+    55.66657499999999,
+    12.5798891
   ]
 }
